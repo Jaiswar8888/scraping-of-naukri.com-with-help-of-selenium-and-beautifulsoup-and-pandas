@@ -26,7 +26,7 @@ job_elems = results.find_all('article',class_='jobTuple bgWhite br4 mb-8')
 for job_elem in job_elems:
     URL = job_elem.find('a',class_='title fw500 ellipsis').get('href')
     URLs.append(URL)
-    print(URLs)
+print(URLs)
     
 print('********************************************')
     
